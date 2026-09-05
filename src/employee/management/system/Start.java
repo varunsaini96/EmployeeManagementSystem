@@ -3,9 +3,9 @@ package employee.management.system;
 import javax.swing.*;
 import java.awt.*;
 
-public class Splash extends JFrame {
+public class Start extends JFrame {
 
-    Splash(){
+    Start(){
 
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("Icons/front.gif"));
         Image i2 = i1.getImage().getScaledInstance(800,450,Image.SCALE_DEFAULT);
@@ -28,6 +28,6 @@ public class Splash extends JFrame {
         }
     }
     public static void main(String[] args) {
-        new Splash();
+        new Start();
     }
 }
